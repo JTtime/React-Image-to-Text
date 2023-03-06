@@ -39,9 +39,9 @@ const App = () => {
       <div className="row h-100">
         <div className="col-md-5 mx-auto h-100 d-flex flex-column justify-content-center">
           {!isLoading && (
-            <div className="heading d-flex">
-              <h1 className="text-center py-5 mx-5">Image To Text</h1>
-              <img className="OCRimg" src={companyLogo} />
+            <div className="heading d-flex justify-content-center ">
+              <h1 className="text-center py-5 m-5 imgText">Image To Text</h1>
+              <img className="OCRimg pe-2" src={companyLogo} />
             </div>
           )}
           {isLoading && (
@@ -66,7 +66,7 @@ const App = () => {
               <input
                 type="button"
                 onClick={handleSubmit}
-                className="btn btn-primary mt-5"
+                className="btn btn-primary mt-5 convertbtn fs-1"
                 value="Convert"
               />
             </>
@@ -83,7 +83,7 @@ const App = () => {
               <MDBBtn
                 rounded
                 color="success"
-                className="d-flex align-items-center justify-content-center h-25"
+                className="d-flex align-items-center justify-content-center h-25 fs-3"
                 onClick={newTask}
               >
                 Convert Another file

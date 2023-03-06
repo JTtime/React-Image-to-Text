@@ -3,7 +3,7 @@
   text-align: center;
 }
 .heading {
-  border: 0.5rem outset pink;
+  border: 0 outset;
   outline: 0.5rem solid khaki;
   box-shadow: 0 0 0 2rem skyblue;
   border-radius: 12px;
@@ -12,4 +12,21 @@
   padding: 0.2rem;
   outline-offset: 0.5rem;
   background: cyan;
+  /* width: 100%; */
+}
+.convertbtn {
+  height: 5rem;
+  font-size: 15px;
+}
+
+.OCRimg {
+  max-width: 45vw;
+  object-fit: stretch;
+  border-radius: 12px;
+}
+
+@media (max-width: 1400px) and (min-width: 750px) {
+  .imgText {
+    display: none;
+  }
 }
