@@ -1,0 +1,15 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+.heading {
+  border: 0.5rem outset pink;
+  outline: 0.5rem solid khaki;
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  font: bold 1rem Roboto;
+  margin: 0.4rem;
+  padding: 0.2rem;
+  outline-offset: 0.5rem;
+  background: cyan;
+}
